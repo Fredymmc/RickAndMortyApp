@@ -1,0 +1,122 @@
+#root {  
+  margin: 0 auto;  
+  text-align: center;
+  background-color: rgb(24, 24, 24);
+  color: #fff;
+  width: 100%;  
+  height: auto; 
+  
+}
+
+.header{
+  width: 100%;  
+  overflow: hidden;
+  background-color: rgb(24, 24, 24);
+}
+
+.header img{
+  width: 100%;
+}
+
+
+
+.cardr{ 
+
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+width: 90%;
+margin: auto;
+gap: 70px;
+
+}
+
+.container_details{
+  display: flex;
+  justify-content:space-around;
+  width: 700px;
+  margin: auto;
+  margin-top: -15px;
+  margin-bottom: 30px;
+  
+}
+
+.input_desing {
+  background-color: rgb(208, 208, 208); 
+  padding: 17px;
+  width: 400px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  margin-right: 20px;
+}
+
+.input_button{
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  margin-left: -60px;
+  padding: 15px;
+  background-color: aqua;
+}
+
+
+
+
+p b{
+  color: aqua;
+}
+
+.col{
+  width: 25%;
+}
+
+.rick_card{
+  margin: 0 auto;
+  background-color: rgb(63, 63, 63);
+  padding: 20px;
+  width: 100%;
+  border-radius:20px ;
+  -webkit-border-radius:20px ;
+  -moz-border-radius:20px ;
+}
+
+.rick_card img{
+  width: 100%;
+  
+  }
+
+  .rick_card p span{
+    color:aqua;
+    
+    }
+
+
+footer{
+  background-color: rgb(63, 63, 63);
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+
+@media (max-width: 500px) {
+  .col{
+    width: 90%;
+  }
+
+  .container_details{    
+    width: 300px;    
+    
+  }
+
+  .input_desing {    
+    width: 250px;
+    
+  }
+
+  
+  
+}
+  
+
+
